@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "278882533146",
+    "project_id": "monady-gbx3",
+    "storage_bucket": "monady-gbx3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278882533146:android:79577f8149c50386e476a3",
+        "android_client_info": {
+          "package_name": "com.monady.gbx3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278882533146-s6jdoln40ga1npslfumpc9cs5datdqbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.monady.gbx3",
+            "certificate_hash": "b781380eff7b0e53eaa1210b53a6d1291e5de002"
+          }
+        },
+        {
+          "client_id": "278882533146-kvemirmqgf3bhne3fji35c8dhsegp2is.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxlMTcIT-NGOdKxDBg4LEOaC8tZOEK5FA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278882533146-kvemirmqgf3bhne3fji35c8dhsegp2is.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
