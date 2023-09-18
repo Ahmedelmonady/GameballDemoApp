@@ -8,36 +8,42 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+
         <Button
             android:id="@+id/btnWidget"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="63dp"
             android:text="Hello World!"
-            app:layout_constraintBaseline_toBaselineOf="@+id/btnRegister"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/btnRegister" />
+            app:layout_constraintStart_toStartOf="@+id/btnRegisterAuto"
+            app:layout_constraintTop_toBottomOf="@+id/btnRegisterAuto" />
 
         <Button
-            android:id="@+id/btnRegister"
+            android:id="@+id/btnRegisterAuto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginBottom="206dp"
+            android:layout_marginTop="59dp"
             android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/btnWidget"
-            app:layout_constraintHorizontal_chainStyle="packed"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="@+id/btnRegisterManual"
+            app:layout_constraintTop_toBottomOf="@+id/btnRegisterManual" />
 
+        <Button
+            android:id="@+id/btnRegisterManual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="44dp"
+            android:text="Hello World!"
+            app:layout_constraintStart_toStartOf="@+id/playerUniqueIdInput"
+            app:layout_constraintTop_toBottomOf="@+id/playerUniqueIdInput" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/playerUniqueIdInput"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:layout_marginTop="187dp"
             android:hint="Player Unique Id"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:text=""
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
